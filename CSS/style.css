@@ -1,0 +1,28 @@
+* {
+    color: azure;
+    background-color: aqua;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+p {
+    color: green;
+}
+
+
+#p1 {
+    color: darkblue;
+}
+
+
+.para {
+    background-color: blueviolet;
+}
+
+
+h2, #p3, #h1 {
+    color: chocolate;
+}

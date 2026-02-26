@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                url("https://images.unsplash.com/photo-1501785888041-af3ef285b470");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}
+
+/* Navbar */
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.menu a:hover{
+    color: #ff7200;
+}
+
+.search-box{
+    display: flex;
+}
+
+.search-box input{
+    padding: 8px;
+    border: 1px solid #ff7200;
+    background: transparent;
+    color: white;
+    outline: none;
+}
+
+.search-box button{
+    background: #ff7200;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    color: white;
+}
+
+
+/* Hero Section */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+
+.content{
+    max-width: 600px;
+}
+
+.content h1{
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+.content h1 span{
+    color: #ff7200;
+    font-size: 60px;
+}
+
+.content p{
+    margin: 20px 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.join-btn{
+    padding: 12px 30px;
+    background: #ff7200;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+
+/* Login Box */
+.login-box{
+    background: rgba(0,0,0,0.8);
+    padding: 40px;
+    width: 320px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login-box h2{
+    background: white;
+    color: #ff7200;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.login-box input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ff7200;
+    color: white;
+    outline: none;
+}
+
+.login-btn{
+    width: 100%;
+    padding: 10px;
+    background: #ff7200;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.signup-text{
+    font-size: 12px;
+    margin: 15px 0;
+}
+
+.signup-text span{
+    color: #ff7200;
+    cursor: pointer;
+}
+
+.social-text{
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.social-icons i{
+    margin: 0 8px;
+    cursor: pointer;
+}

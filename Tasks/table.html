@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recreated Grid</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50vh;
+            background: #f4f4f4;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 600px;
+            height: 400px;
+        }
+
+        td {
+            border: 3px solid black;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+
+    <!-- Row 1 -->
+    <tr>
+        <td rowspan="3"></td>
+        <td colspan="5"></td>
+    </tr>
+
+    <!-- Row 2 -->
+    <tr>
+        <td colspan="2"></td>
+        <td colspan="2" rowspan="2"></td>
+    </tr>
+
+    <!-- Row 3 -->
+    <tr>
+        <td colspan="2"></td>
+        
+    </tr>
+
+    <!-- Row 4 -->
+    <tr>
+        <td colspan="1" rowspan="2"></td>
+        <td colspan="1" rowspan="2"></td>
+        <td colspan="1" rowspan="2"></td>
+        <td colspan="2" rowspan="1"></td>
+    </tr>
+
+    <!-- Row 5 -->
+        <td colspan="2" rowspan="1"></td>
+
+
+    <!-- Row 6 -->
+    <tr>
+        <td rowspan="3" colspan="1"></td>
+        <td colspan="2"></td>
+        <td colspan="2" ></td>
+    </tr>
+
+</table>
+
+</body>
+</html>

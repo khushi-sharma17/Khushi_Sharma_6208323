@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mvc-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: mvcapp
+  template:
+    metadata:
+      labels:
+        app: mvcapp
+    spec:
+      containers:
+      - name: mvcapp
+        image: mvcapp:v1   # For Minikube
+        # image: yourdockerhubusername/mvcapp:v1
+        imagePullPolicy: Never   # Only if using Minikube
+        ports:
+        - containerPort: 80

@@ -1,0 +1,90 @@
+body {
+    background-image: url("./nature.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: aqua;
+    position: absolute;
+    left: 80px;
+    top: 20px;
+}
+
+
+h1 {
+    background-color: lightblue;
+    background : linear-gradient(45 deg, skyblue, green);
+}
+
+
+#box1 {
+    border : 2px solid black;
+    width: 250px;
+    height: 250px;
+    background-color: green;
+    font-size: 22px;
+    position: sticky;
+    /* left: 100px;
+    top: 100px;
+    z-index: -1; */
+}
+
+#box2 {
+    border : 2px solid black;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    font-size: 22px;
+    position: sticky;
+    left: 95px;
+    top: 95px;
+    margin : auto;
+    z-index: -1;
+}
+
+
+* {
+    margin : 0px;
+    margin : auto;
+}
+
+
+/* div {
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    border: 2px solid black;
+    float: left;
+    float: right;
+}
+
+p { */
+    /* clear : left;
+
+} */
+
+
+/* 
+.loader {
+    height: 100px;
+    width: 100px;
+    border: 10px solid #384e77;
+    border-top: 10px solid #8bbeb2;
+    background-color: darkorange;
+    border-radius: 50%;
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+} */

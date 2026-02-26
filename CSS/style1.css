@@ -1,0 +1,90 @@
+/* descendant selector */
+body div div h1 {
+    /* background-color: aqua; */
+    color: aquamarine;
+}
+
+
+body > div {
+    background-color: brown;
+}
+
+/* child selector */
+body>#div {
+    background-color: aquamarine;
+}
+
+
+/* leaving the first sibling it will first target the other sibling */
+
+/* adjacent sibling selector */
+h1 + h1 {
+    background-color: pink;
+}
+
+/* general sibling selector */
+h1~h1 {
+    background-color: palevioletred;
+}
+
+
+/* pseudo element selector --> :: --> scope resolution selector */
+
+
+p::first-letter {
+    font-size: 30px;
+    color: red;
+}
+
+
+p::first-line {
+    background-color: orange;
+}
+
+/* p::after {
+
+} */
+
+
+ul li::marker {
+    color: red;
+}
+
+p::selection {
+    background-color: pink;
+    color: aliceblue;
+}
+
+
+p:before {
+    content : 😍;
+}
+
+p:after {
+    content : 💕;
+}
+
+
+
+/* pseudo class selector */
+
+/* dynamic pseudo selector */
+/* structural pseudo selector */
+
+/* hover */
+
+
+p:hover {
+    background-color: blueviolet;
+}
+
+
+a:active {
+    color : green;
+}
+
+
+a:visited {
+    background-color: grey;
+    color: grey;
+}

@@ -1,0 +1,57 @@
+h1 {
+    text-align: center;
+}
+
+
+#fixed {
+    background-color: lightblue;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    color: black;
+}
+
+
+#box2 {
+    background-color: lightgray;
+    width: 90%;
+    height: 500px;
+    margin-left: 75px;
+    position: absolute;
+}
+
+
+#relative {
+    background-color: greenyellow;
+    width: 95%;
+    margin-left: 20px;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    z-index: -1;
+}
+
+
+#static {
+    background-color: grey;
+    width: 95%;
+    margin-left: 20px;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    margin-top: 100px;
+}
+
+
+#absolute {
+    background-color: orange;
+    width: 10%;
+    margin-left: 20px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    margin-top: 100px;
+    z-index: 1;
+    position: sticky;
+}

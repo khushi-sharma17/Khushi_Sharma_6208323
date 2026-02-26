@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body{
+    background-color: white;
+    color: black;
+    padding: 40px;
+    transition: 0.4s;   /* smooth change */
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+/* Dark mode class */
+.dark{
+    background-color: black;
+    color: white;
+}
