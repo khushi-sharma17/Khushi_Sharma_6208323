@@ -56,3 +56,19 @@
 //     test("", () => {})
 //     test("", () => {})
 // })
+
+
+
+
+
+
+
+
+//span[text()="Search"]
+
+//span[contains(text(),"Nike")]
+
+//span[contains(@class,"shortcut-name nav-assistant-card-font")]
+
+//span[contains(@atribute, "")]
+

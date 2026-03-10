@@ -1,14 +1,18 @@
 import {test} from "@playwright/test"
 
+// The test function is used to define a test case.
+
+
+
 //? we are adding some extra label
 
 
 /**
- * skip
+ * skip = used to skip a test case
  * 
- * describe
- * slow
- * settlement
+ * describe = used to group multiple tests together
+ * slow = marks a test as slow running
+ * setTimeout = Used to increase timeout limit.
  */
 
 
