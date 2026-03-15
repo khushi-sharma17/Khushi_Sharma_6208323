@@ -6,7 +6,7 @@ import {test} from "@playwright/test"
 
 // //     await page.locator('#btn_a').click({button:"right", clickCount : 2, force : true})
 
-// //     await page.locator("#btn_a").dblclick()
+// //     await page.locator("#btn_a").dblclick()       // .click({clickCount : 2})
 
 // //     await page.locator('//img[@class="w-5 h-5 mt-5 ml-3 cursor-pointer]').hover()
 
@@ -17,6 +17,16 @@ import {test} from "@playwright/test"
 // //     await page.mouse.up()
 
 // // })
+
+
+// Notes : 
+/**
+ * button:"right"	Performs right click instead of left click
+ * clickCount:2	Performs double click
+ * force:true	Click even if element is hidden/covered
+ */
+
+
 
 
 
