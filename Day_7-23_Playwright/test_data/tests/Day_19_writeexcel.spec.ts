@@ -17,6 +17,5 @@ test("write_excel_data",async({page})=>{
     sheet.getRow(1).getCell(1).value="Khushi";
 
     await book.xlsx.writeFile(path.join(__dirname,"../../test_data/readexcel.xlsx"))
-
     
 })

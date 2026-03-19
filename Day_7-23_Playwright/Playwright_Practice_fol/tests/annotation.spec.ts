@@ -9,7 +9,7 @@ import {test} from "@playwright/test"
 
 /**
  * skip = used to skip a test case
- * 
+ * only = Run ONLY this test and ignore all others
  * describe = used to group multiple tests together
  * slow = marks a test as slow running
  * setTimeout = Used to increase timeout limit.
@@ -42,3 +42,10 @@ test("test2", async() => {
 
 
 // npx playwright test -g "test2"
+
+
+
+
+
+
+
