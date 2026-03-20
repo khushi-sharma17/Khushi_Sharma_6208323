@@ -13,6 +13,7 @@ import {test} from "@playwright/test"
  * describe = used to group multiple tests together
  * slow = marks a test as slow running
  * setTimeout = Used to increase timeout limit.
+ * fixme = bonus ()
  */
 
 
@@ -20,7 +21,7 @@ import {test} from "@playwright/test"
 
 
 
-// commands : npx playwright test relative path --header
+// commands : npx playwright test relative path --headed
 // commands : npx playwright test -g "test2"
 
 
