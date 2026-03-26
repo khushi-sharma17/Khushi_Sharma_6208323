@@ -14,15 +14,19 @@ test("Assertions", async({page}) => {
 
 
     await expect(username).toBeAttached()
+    // checks whether element exists in DOM or not....
     
     // await expect(page.locator("//input[contains(@type,'password')]"))
     
     // await page.screenshot({path:"screenshot/Assertions.png"});
 
 
-    // await expect(username).toContainText()
+    // await expect(username).toContainText()   --> wrong
+    // Input fields don’t have text inside → they have value
+    await expect(username).toHaveValue("something")
     
-    await expect(page.locator("//input[contains(@type,'text')]")).not.toContainClass("form-control")
+    await expect(page.locator("//input[contains(@type,'text')]")).not.toHaveClass("form-control")
+    // toContainClass is not valid here.
     
     await expect(password).toHaveScreenshot()
     
@@ -32,9 +36,8 @@ test("Assertions", async({page}) => {
 
 // npx playwright show-report --port 9324
 
-// Partial texts : 
-// toHaveText
-// toContainText
+// toHaveText  --> exact match
+// toContainText  --> partial match
 
 // what are soft assertions and hard assertions ?
 

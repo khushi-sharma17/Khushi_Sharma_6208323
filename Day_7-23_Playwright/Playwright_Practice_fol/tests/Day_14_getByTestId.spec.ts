@@ -10,9 +10,18 @@ test('web element', async ({ page }) => {
   await page.keyboard.press("Enter")
 
   await page.locator('//span[@class="a-size-base-plus a-color-base"]').first().waitFor()    // first element is getting loaded
+  // .waitFor() --> waits until visible/attached
+
   let element = await page.locator('//span[@class="a-size-base-plus a-color-base"]').all()
+  // .all() --> returns array of locators
 
   console.log(element);
+
+
+
+  // const texts = await page.locator('//span[@class="a-size-base-plus a-color-base"]').allTextContents()
+  // .allTextContents (correct way, if you want text)
+  // console.log(texts)
 
 
 

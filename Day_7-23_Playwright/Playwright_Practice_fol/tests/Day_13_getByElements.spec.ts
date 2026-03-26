@@ -8,8 +8,10 @@ test("get by methods", async({page}) => {
 
     await page.getByLabel("Password").fill("Password123")
 
-    await page.getByRole("textbox", {name : "username", exact : true})
+    // await page.getByRole("textbox", {name : "Username", exact : true}).fill("student")
 
-    await page.getByPlaceholder("Enter your name")
+    await page.getByRole("button", { name: "Submit" }).click();
+
+    await page.getByPlaceholder("Enter your name").fill("Khushi")
     
 })
