@@ -107,3 +107,24 @@ test("scroll", async({page}) => {
     await page.mouse.move(100, 100)
 
 })
+
+
+
+
+
+
+/** Mouse Events : 
+ * 1. Click Action
+ * 2. Double Click
+ * 3. Hover
+ * 4. Mouse Down
+ * 5. Mouse Up
+ * 6. Mouse Move
+ * 7. Drag and Drop (Manual)
+ * 8. Drag and Drop (Using dragTo)
+ * 9. Dispatch Event : Triggers JavaScript event directly without real mouse action.
+ * 10. Scroll Action
+ * 11. CheckBox Mouse Interaction : check(), uncheck(), isChecked()
+ * 12. Force Click  :  await page.locator("#submit").click({force : true})
+ * 13. 
+ */
