@@ -69,3 +69,24 @@ Thyagaraj Indoor Stadium, Delhi
 
 
 // every weekly assessment should be done in a different repo
+
+
+
+
+
+
+# Steps to install Mocha
+
+## Step 1: Install Mocha
+- npm install mocha
+
+## Step 2: Rename file
+
+👉 Avoid conflict with Playwright:
+
+mochaTest.spec.js   ❌
+mochaTest.mocha.js  ✅
+
+
+## Step 3: Run with Mocha
+npx mocha mochaTest.mocha.js
