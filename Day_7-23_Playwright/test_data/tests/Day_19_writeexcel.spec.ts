@@ -8,10 +8,10 @@ test("write_excel_data",async({page})=>{
 
     await book.xlsx.readFile(path.join(__dirname,"../../test_data/readexcel.xlsx"))
 
-    let sheet=await book.getWorksheet('Sheet4');
+    let sheet = await book.getWorksheet('Sheet4');
 
     if(!sheet){
-        sheet=await book.addWorksheet('Sheet4')
+        sheet = await book.addWorksheet('Sheet4')
     }
 
     sheet.getRow(1).getCell(1).value="Khushi";

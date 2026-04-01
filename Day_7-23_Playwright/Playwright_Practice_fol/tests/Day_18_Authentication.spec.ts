@@ -1,5 +1,8 @@
 import {test, expect} from "@playwright/test"
 
+
+// This is used for Basic Auth, where browser sends credentials automatically.
+
 // test("test1", async({browser}) => {
 
 //     let context = await browser.newContext({httpCredentials : {username : "admin", password : "admin"}})
